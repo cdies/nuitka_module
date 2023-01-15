@@ -1,0 +1,78 @@
+001903c9  75 48 65 6c      ds         "uHello world!" <------
+           6c 6f 20 77 
+           6f 72 6c 64 
+001903d7  61 5f 5f 64      ds         "a__doc__"
+           6f 63 5f 5f 00
+001903e0  61 5f 5f 66      ds         "a__file__"
+           69 6c 65 5f 
+           5f 00
+001903ea  61 5f 5f 73      ds         "a__spec__"
+           70 65 63 5f 
+           5f 00
+001903f4  61 6f 72 69      ds         "aorigin"
+           67 69 6e 00
+001903fc  61 68 61 73      ds         "ahas_location"
+           5f 6c 6f 63 
+           61 74 69 6f 
+0019040a  61 5f 5f 63      ds         "a__cached__"
+           61 63 68 65 
+           64 5f 5f 00
+00190416  75 46 69 6e      ds         "uFind me!" <------
+           64 20 6d 65 
+           21 00
+00190420  61 74 65 78      ds         "atext"
+           74 00
+00190426  61 6d 65 74      ds         "ametaclass"
+           61 63 6c 61 
+           73 73 00
+00190431  54               PUSH       RSP
+00190432  00 00            ADD        byte ptr [RAX],AL
+00190434  00 00            ADD        byte ptr [RAX],AL
+00190436  61 5f 5f 70      ds         "a__prepare__"
+           72 65 70 61 
+           72 65 5f 5f 00
+00190443  54               PUSH       RSP
+00190444  02 00            ADD        AL,byte ptr [RAX]
+00190446  00 00            ADD        byte ptr [RAX],AL
+00190448  61 44 75 6d      ds         "aDummy"
+           6d 79 00
+0019044f  54               PUSH       RSP
+00190450  00 00            ADD        byte ptr [RAX],AL
+00190452  00 00            ADD        byte ptr [RAX],AL
+00190454  61 5f 5f 67      ds         "a__getitem__"
+           65 74 69 74 
+           65 6d 5f 5f 00
+00190461  75 25 73 2e      ds         "u%s.__prepare__() must return a mapping, not"
+           5f 5f 70 72 
+           65 70 61 72 
+00190491  61 5f 5f 6e      ds         "a__name__"
+           61 6d 65 5f 
+           5f 00
+0019049b  75 3c 6d 65      ds         "u<metaclass>"
+           74 61 63 6c 
+           61 73 73 3e 00
+001904a8  61 5f 5f 6d      ds         "a__module__"
+           6f 64 75 6c 
+           65 5f 5f 00
+001904b4  61 44 75 6d      ds         "aDummy"
+           6d 79 00
+001904bb  61 5f 5f 71      ds         "a__qualname__"
+           75 61 6c 6e 
+           61 6d 65 5f 
+001904c9  61 71 77 65      ds         "aqweasd123" <------
+           61 73 64 31 
+           32 33 00
+001904d4  61 70 61 73      ds         "apassword" <------
+           73 77 6f 72 
+           64 00
+001904de  61 6d 61 69      ds         "amain"
+           6e 00
+001904e4  75 44 75 6d      ds         "uDummy.main"
+           6d 79 2e 6d 
+           61 69 6e 00
+001904f0  75 62 69 6e      ds         "ubin_module.py"
+           5f 6d 6f 64 
+           75 6c 65 2e 
+001904ff  75 3c 6d 6f      ds         "u<module bin_module>"
+           64 75 6c 65 
+           20 62 69 6e 
