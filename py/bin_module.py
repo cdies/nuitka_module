@@ -3,4 +3,4 @@ text = 'Find me!'
 class Dummy:
     password = 'qweasd123'
     def main(self):
-        print('Hello world!')
+        print('Some change!')
