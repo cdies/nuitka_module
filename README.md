@@ -1,6 +1,6 @@
 ## Бинарники из python через Nuitka компилятор, обзор и небольшое исследование
  
-https://habr.com/ru/post/710690/
+https://habr.com/ru/company/sberbank/blog/710690/
 
 <br/><br/>
 ---
